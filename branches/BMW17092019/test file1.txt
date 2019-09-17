@@ -1,2 +1,0 @@
-this is the new text document which is to be delived to the trunk as it is.
-and now we have cut branches from the trunk and do what is neccessary.
