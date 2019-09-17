@@ -1,2 +1,0 @@
-this is also a file in the trunk not the one which is in elephant but in svn.
-but there is always more to learn.
