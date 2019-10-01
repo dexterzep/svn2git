@@ -1,3 +1,0 @@
-this is the only file that is in the test.
-something new
-again another change into the file that is lone file.
