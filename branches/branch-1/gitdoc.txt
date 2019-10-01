@@ -26,3 +26,6 @@ GIT DOCUMENTATION
 10.git log --oneline --graph --decorate --all
 11.git merge testbranch(for automatic merge)
 12.git log --oneline --graph --decorate --all
+
+
+THIS DOCUMENTATION WAS REQUESTED BY PREM SIR AND WAS DULY SENT TO HIM.
