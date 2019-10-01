@@ -1,0 +1,28 @@
+GIT DOCUMENTATION
+
+==== add and commit operations ====
+
+1.git clone ssh://git@gitclone.sginternal.com/sandbox/upgradetest1.git (on root itself)
+2.cd /upgradetest1
+3.git status
+4.vim testfile (add some dummy text in it)
+5.git status
+6.git add .
+7.git commit -m "committing testfile"
+8.git status
+9.git push origin master
+
+==== merge operations ====
+
+1.git checkout -b testbranch
+2.vim file1 (add some text)
+3.git add .
+4.git commit -m "committing from testbranch"
+5.git status
+6.git checkout master
+7.vim file2(add some text here as well)
+8.git add .
+9.git checkout -m "committing from master"
+10.git log --oneline --graph --decorate --all
+11.git merge testbranch(for automatic merge)
+12.git log --oneline --graph --decorate --all
